@@ -2,14 +2,12 @@
 #include <string>
 #include <chrono>
 
-using namespace std;
-
 int main(){
 	// This is my program
 	// branch changes
 	cout << "Added changes" << endl;
-	string name;
-	cin >> name;
-	cout << "Hello world, Here I am: " << name << endl;
+	std::string name;
+	std::cin >> name;
+	std::cout << "Hello world, Here I am: " << name << std::endl;
 	return 0;
 }
