@@ -4,6 +4,12 @@
 
 using namespace std;
 
+int superFunc() {
+	static int i = 0;
+	i+= 1;
+	return i;
+}
+
 void greet() {
 	string name;
 	cin >> name;
