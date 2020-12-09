@@ -4,8 +4,10 @@
 
 using namespace std;
 
-void greet(){
-	cout << "Hello there" << endl;
+void greet() {
+	string name;
+	cin >> name;
+	cout << "Hello there, " << name << endl;
 }
 
 int main(){
