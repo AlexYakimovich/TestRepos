@@ -2,6 +2,12 @@
 #include <string>
 #include <chrono>
 
+using namespace std;
+
+void greet(){
+	cout << "Hello there" << endl;
+}
+
 int main(){
 	// This is my program
 	// branch changes
