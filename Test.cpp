@@ -6,11 +6,8 @@ using namespace std;
 
 int superFunc() {
 	static int i = 0;
-<<<<<<< HEAD
 	i+= 1;
-=======
 	i++;
->>>>>>> merge_test
 	return i;
 }
 
