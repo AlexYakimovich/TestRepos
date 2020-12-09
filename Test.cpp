@@ -2,6 +2,12 @@
 #include <string>
 #include <chrono>
 
+void greet(){
+	std::string name;
+	std::cin >> name;
+	std::cout << "Hello there, " << name << std::endl;
+}
+
 int main(){
 	// This is my program
 	// branch changes
